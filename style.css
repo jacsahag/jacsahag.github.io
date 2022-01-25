@@ -1,0 +1,54 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size: 28px; 
+    line-height: 33.88px; 
+    font-family: Philosopher, serif;
+    background-attachment: fixed; 
+    background-color: black; 
+    background-image:
+radial-gradient(white, rgba(255,255,255,.5) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.3) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+
+
+h1, h2, h3{
+     
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Cinzel', serif;
+}
+
+header{
+    /* background:black url('https://import.cdn.thinkific.com/203470%2Fcustom_site_themes%2Fid%2Fq4jDsBvTAuGEI8zP5mQf_slide-image_2048x2048.jpg');
+    background-position: 50% 50%;  */
+    color:white;
+    padding:100px 30px; 
+}  
+
+
+.content {
+    padding:30px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: white; 
+}
+
+ul{
+    list-style-type: '☽';
+}
+
+li{
+    padding-left: 10px; 
+}
+
+img{
+    float: right; 
+}
