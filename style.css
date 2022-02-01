@@ -26,6 +26,10 @@ font-family: 'Cinzel Decorative', cursive;
 font-family: 'Cinzel', serif;
 }
 
+h2 {
+    line-height: 1.25em; 
+}
+
 a:link{color: #900}
 a:visited{color: #f00;}
 a:hover,
@@ -63,7 +67,7 @@ footer {
     text-align: center; 
 }
 footer a {
-    text-decoration:none;
+    text-decoration:none; 
 }
 footer a:link,
 footer a:visited{color: white;}
@@ -74,3 +78,27 @@ footer a:active{color: #999}
 /* img{
     float: right; 
 } */
+
+.union {
+    background-image: url(photos/UCWVAsquarelogo.png);
+    background-color: #500;
+    background-repeat:no-repeat;
+    background-position: right 30px center;
+    background-size: 300px; 
+    padding:30px 30px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    color: white; 
+}
+.union p,
+.union ul {
+    margin-right: 50%;
+}
+
+.union a:link, .union a:visited {
+    color: white 
+}
+
+.union a:hover {
+    color: red; 
+}
