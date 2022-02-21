@@ -32,10 +32,10 @@ h2 {
     line-height: 1.25em; 
 }
 
-a:link{color: #900}
-a:visited{color: #f00;}
+a:link{color: #0e1359}
+a:visited{color: #0e1359;}
 a:hover,
-a:focus{color: #500}
+a:focus{color: #540094}
 a:active{color: black}
 
 
@@ -51,7 +51,7 @@ header{
     padding:30px; 
     max-width: 800px; 
     margin: 0 auto; 
-    background-color: white; 
+    background-color: rgba(255,255,255,.5); 
 }
 
 ul{
@@ -83,7 +83,7 @@ footer a:active{color: #999}
 
 .union {
     background-image: url(photos/UCWVAsquarelogo.png);
-    background-color: #500;
+    background-color: #222445;
     background-repeat:no-repeat;
     background-position: right 30px center;
     background-size: 300px; 
@@ -102,5 +102,5 @@ footer a:active{color: #999}
 }
 
 .union a:hover {
-    color: red; 
+    color: #FFB666; 
 }
