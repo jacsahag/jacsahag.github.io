@@ -38,6 +38,21 @@ a:hover,
 a:focus{color: #540094}
 a:active{color: black}
 
+img {
+    max-width: 100%;
+    width: auto;
+}
+
+figcaption {
+    font-size: 18px;
+    line-height: 1;
+}
+
+#olayami-dabls{
+    float: right;
+    width: 48%;
+
+}
 
 header{
     /* background:black url('https://import.cdn.thinkific.com/203470%2Fcustom_site_themes%2Fid%2Fq4jDsBvTAuGEI8zP5mQf_slide-image_2048x2048.jpg');
