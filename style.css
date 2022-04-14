@@ -58,14 +58,35 @@ header{
     /* background:black url('https://import.cdn.thinkific.com/203470%2Fcustom_site_themes%2Fid%2Fq4jDsBvTAuGEI8zP5mQf_slide-image_2048x2048.jpg');
     background-position: 50% 50%;  */
     color:white;
-    padding:100px 30px; 
+    padding: 60px 0; 
+    margin: 0 60px; 
 }  
 
+nav {
+     
+    font: 16px 'Cinzel Decorative', cursive;
+    margin: 0 60px;  
+     
+}
+
+nav a:link {
+    color: white;
+    padding: 8px; 
+    display: inline-block; 
+    text-decoration: none; 
+    background-color: #333; 
+
+}
+
+nav a:hover, 
+nav a:focus {
+    background-color: #444; 
+}
 
 .content {
     padding:30px; 
-    max-width: 800px; 
-    margin: 0 auto; 
+    max-width: 80%; 
+    margin: 0 60px; 
     background-color: rgba(255,255,255,.5); 
 }
 
@@ -75,6 +96,7 @@ ul{
 
 li{
     padding-left: 10px; 
+    margin-bottom: 30px;
 }
 
 footer {
@@ -102,9 +124,9 @@ footer a:active{color: #999}
     background-repeat:no-repeat;
     background-position: right 30px center;
     background-size: 300px; 
-    padding:30px 30px; 
-    max-width: 800px; 
-    margin: 0 auto; 
+    padding:30px; 
+    max-width: 80%; 
+    margin: 0 60px; 
     color: white; 
 }
 .union p,
