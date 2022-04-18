@@ -5,7 +5,7 @@ html,body{
 
 html{
     font-size: 28px; 
-    line-height: 33.88px; 
+    line-height: 1.2; 
     font-family: Philosopher, serif;
     background-attachment: fixed; 
     background-color: black; 
@@ -26,6 +26,10 @@ h1, h2, h3{
      
 font-family: 'Cinzel Decorative', cursive;
 font-family: 'Cinzel', serif;
+}
+
+h1 {
+    line-height: 
 }
 
 h2 {
@@ -75,6 +79,10 @@ nav a:link {
     text-decoration: none; 
     background-color: #333; 
 
+}
+
+nav a:visited {
+    color: white;
 }
 
 nav a:hover, 
