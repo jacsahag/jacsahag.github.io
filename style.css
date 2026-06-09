@@ -57,6 +57,7 @@ figcaption {
 
 }
 
+
 header{
     /* background:black url('https://import.cdn.thinkific.com/203470%2Fcustom_site_themes%2Fid%2Fq4jDsBvTAuGEI8zP5mQf_slide-image_2048x2048.jpg');
     background-position: 50% 50%;  */
@@ -95,6 +96,7 @@ nav a:focus {
     max-width: 80%; 
     margin: 0 60px; 
     background-color: rgba(255,255,255,.5); 
+    overflow: hidden; 
 }
 
 ul{
@@ -147,4 +149,12 @@ footer a:active{color: #999}
 
 .union a:hover {
     color: #FFB666; 
+}
+
+@media screen and (min-width: 2000px) {
+    
+    #olayami-dabls{
+    width: 30%;
+
+}
 }
